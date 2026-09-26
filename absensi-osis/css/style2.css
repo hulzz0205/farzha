@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.4),
+            rgba(0,0,0,0.4)
+        ),
+        url("image/bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* CONTAINER */
+.container {
+    width: 400px;
+    margin: 80px auto;
+    background: transparent;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.2);
+    backdrop-filter: blur(3px);
+}
+
+/* JUDUL */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* INPUT */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+/* SUCCESS */
+.success {
+    text-align: center;
+    color: green;
+    margin-top: 10px;
+}
+
+/* 📱 RESPONSIVE HP */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        margin: 40px auto;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}

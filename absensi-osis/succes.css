@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-container {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    color: #2e7d32;
+}
+
+.card p {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    background: #1976d2;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #0d47a1;
+}
+
+.btn.logout {
+    background: #d32f2f;
+}
+
+.btn.logout:hover {
+    background: #9a0007;
+}
